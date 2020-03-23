@@ -1,11 +1,11 @@
-def first_code():
+def main():
    print("Keep it logically awesome.")
 
   f = open("quotes.txt")
   quotes = f.readlines()
   f.close()
 
-  print(quotes[1])
+  print(quotes[0])
 
 if __name__== "__main__":
   main()

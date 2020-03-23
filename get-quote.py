@@ -1,4 +1,4 @@
-def main():
+def first_code():
    print("Keep it logically awesome.")
 
   f = open("quotes.txt")
